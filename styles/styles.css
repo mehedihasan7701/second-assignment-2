@@ -1,0 +1,46 @@
+/* header and navigation styles */
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    
+    background-color: bisque;
+    height: 800px;
+}
+.nav-title{
+        display: flex;
+}
+.home-button{
+    display: flex;
+    list-style: none;
+    
+}
+.hedder-title{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-right: 80px;
+    padding-left: 80px;
+    
+}
+
+/* banner styles */
+
+.banner-title{
+        height: 50px;
+        margin-top: 50px;
+        text-align: center;
+}
+.banner-discription{
+    text-align: center;
+    padding-left: 170px;
+    padding-right: 170px;
+
+}
+.banner-button{
+    
+}
+.banner-images{
+    width: 600px;
+}
