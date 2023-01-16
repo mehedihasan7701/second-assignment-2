@@ -256,7 +256,7 @@ icon2{
     
 }
 .Sponspors-title {
-    margin-top: 70px;
+    margin-top: 100px;
     color: #131313;
     font-size: 40px;
     
@@ -274,21 +274,73 @@ icon2{
     
 }
 .Sponspors-image1{
-    padding-top: 40px;
+    padding-top: 60px;
     padding-left: 50px;
+    padding-bottom: 70px;
        
 }
 
 /* footer style */
 
-.footer-paragraph{
+/* .footer-paragraph{
     margin-top: 80px;
     text-align: center;
     background-color: #FFF4E7;
     margin-left: 150px;
     margin-right: 150px;
-    margin-bottom: 150px;
+    margin-bottom: 20px;
     padding-bottom: 10px;
     padding-top: 10px;
+} */
+
+.footer-main{
     
+}
+
+.footer-main{
+    background-color: #FFF4E7;
+}
+.contact{
+    margin-top: 30px;
+}
+.contact-title1{
+    margin-left: 200px;
+    margin-top: 70px;
+}
+.contact-discription-1{
+    margin-left: 200px;
+    margin-right: 750px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: justify;
+}
+.contact-discription-2{
+    margin-left: 200px;
+    margin-top: 10px;
+}
+.contact-discription-3{
+    margin-left: 200px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.footer-paragraph{
+    margin-bottom: 50px;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 12px;
+    margin-left: 210px;
+}
+.social-main{
+    display: flex;
+    margin-left: 1100px;
+       
+}
+
+/* Mobile devices  */
+
+@media only screen and {max-width: 688px;
+    .title .header{
+        width: 100%;
+        
+    }
 }
