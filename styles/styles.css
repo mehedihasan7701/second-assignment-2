@@ -333,14 +333,21 @@ icon2{
 .social-main{
     display: flex;
     margin-left: 1100px;
+    padding-left: 10px;
        
 }
 
 /* Mobile devices  */
 
 @media only screen and {max-width: 688px;
-    .title .header{
+    .hedder{
         width: 100%;
-        
     }
-}
+    ..banner-button{
+        width: 100%;
+    }
+        .banner-main{
+            width: 100%;
+        }
+    }
+ 
