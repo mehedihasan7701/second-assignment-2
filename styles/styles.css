@@ -11,7 +11,7 @@
 }
 header{
     
-    background-color: rgb(247, 226, 202);
+    background-color: #FFF4E7;
     height: 990px;
     
 }
@@ -268,4 +268,27 @@ icon2{
     padding-right: 400px;
     text-align: center;
     padding-top: 10px;
+}
+.Sponspors-image{
+    padding-left: 100px;
+    
+}
+.Sponspors-image1{
+    padding-top: 40px;
+    padding-left: 50px;
+       
+}
+
+/* footer style */
+
+.footer-paragraph{
+    margin-top: 80px;
+    text-align: center;
+    background-color: #FFF4E7;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 150px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    
 }
