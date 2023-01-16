@@ -3,44 +3,269 @@
     padding: 0;
     margin: 0;
 }
+.title{
+    padding-left: 180px;
+    padding-top: 50px;
+    font-size: 45px;
+    
+}
 header{
     
-    background-color: bisque;
-    height: 800px;
+    background-color: rgb(247, 226, 202);
+    height: 990px;
+    
 }
 .nav-title{
         display: flex;
+        text-decoration: none;
 }
 .home-button{
     display: flex;
     list-style: none;
-    
+    gap: 50px;
+    font-size: 18px;
+    font-style: normal;
+    margin-top: 63px;
+    margin-right: 140px;
+    text-decoration: none;
 }
 .hedder-title{
     display: flex;
     justify-content: space-between;
-    padding-top: 20px;
-    padding-right: 80px;
-    padding-left: 80px;
+    
     
 }
 
 /* banner styles */
 
-.banner-title{
-        height: 50px;
-        margin-top: 50px;
+.banner-title1 {
+        margin-top: 130px;
         text-align: center;
+        font-size: 64px;
+        margin-left: 499px;
+        margin-right: 499px;
+}
+.banner-title2{
+        text-align: center;
+        font-size: 64px;
 }
 .banner-discription{
     text-align: center;
-    padding-left: 170px;
-    padding-right: 170px;
+    padding-left: 299px;
+    padding-right: 299px;
+    font-size: 16px;
+    padding-top: 15px;
+    color: #727272;
 
 }
 .banner-button{
+    color: #FFFFFF;
+    height: 55px;
+    width: 170px;
+    background-color: #FF900E;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+    border: 0;
+    margin-left: 560px;
+    margin-top: 35px;
+}
+.banner-images img{
+    width: 750px;
+    height: 350px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 50px;
+}
+/* Quick list of Our Features styles */
+
+.Quick-main{
+    display: flex;
+}
+.Quick-list-image{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left:150px ;
+    padding-top: 50px;
+}
+.Quick-image1{
+    width: 250px;
+    height: 250px;
+    padding-right: 24px;
+    padding-bottom: 24px;
     
 }
-.banner-images{
-    width: 600px;
+.Quick-list{
+
+}
+.Quick-herdr{
+    margin-top: 200px;
+    margin-left: 40px;
+    margin-right: 250px;
+    font-size: 45px;
+}
+.Quick-list-discription{
+    margin-left: 40px;
+    margin-right: 220px;
+    font-size: 16px;
+    color: #727272;
+    margin-top: 10px;
+}
+.button-2{
+    color: #FFFFFF;
+    height: 55px;
+    width: 170px;
+    background-color: #FF900E;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+    border: 0;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.text-primary{
+    color: #727272;
+}
+.text-primary1{
+    color: #131313;
+}
+.text-primary2{
+    color: #FF900E;
+}
+.Quick-list-discription{
+    color: #727272;
+}
+
+
+/*........... Features you will love & enjoy style ...............*/
+
+.Features-main{
+    display: flex;
+}
+.Features-title{
+    /* color: #131313; */
+    padding-top: 70px;
+    padding-left: 100px;
+}
+.Features-heders{
+    font-size: 45px;
+    padding-right: 200px;
+    padding-bottom: 10px;
+    color: #131313;
+}
+.Features-discription{
+    color: #727272;
+    font-size: 16px;
+    padding-right: 80px;
+    padding-bottom: 30px;
+}
+.Features{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding-left: 120px;
+    padding-right: 90px;
+    padding-top: 10px;
+}
+.Features-subtitle{
+    padding-bottom: 5px;
+    padding-top: 5px;
+    color: #131313;
+}
+.Features-paragraph{
+    padding-bottom: 20px;
+    color: #727272
+    ;
+}
+/* Features-images style */
+.Features-images{
+    width: 500px;
+    height: 600px;
+    padding-right: 120px;
+    padding-top: 50px;
+}
+.button-3{
+    color: #FFFFFF;
+    height: 80px;
+    width: 170px;
+    background-color: #FF900E;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+    border: 0;
+    margin-left: 0px;
+    margin-top: 10px;
+    padding: 10px;
+
+}
+
+.Year{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.Experience{
+    font-size: 15px;
+}
+
+/* Some Facts style */
+.Facts{
+    padding-left: 120px;
+    padding-right: 720px;
+    padding-top: 30px;
+    }
+
+.Facts-title{
+    color: #131313;
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+.Facts-paragraph{
+    color:#727272 ;
+}
+
+.icone{
+    padding-left: 150px;
+    padding-right: 100px;
+    padding-top: 60px;
+}
+
+.icon1{
+    width: 200px;
+    height: 200px;
+    font-size: 30px;
+    font-weight: 800;
+    border: 2px, chocolate;
+    padding: center;
+    margin-right: 70px;
+    
+}
+icon2{
+    /* color: #ffffff; */
+    font-size: 50px;
+    font-weight: 800;
+    
+}
+.icon3{
+   color: #727272;
+   font-size: 16px;
+}
+
+/* Our Sponspors style */
+.Sponspors{
+    text-align: center;
+    
+}
+.Sponspors-title {
+    margin-top: 70px;
+    color: #131313;
+    font-size: 40px;
+    
+}
+.Sponspors-paragraph{
+    font-size: 16px;
+    color: #727272;
+    padding-left: 400px;
+    padding-right: 400px;
+    text-align: center;
+    padding-top: 10px;
 }
